@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+  body .titulo .row .col {
+    background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
+    background-size: cover;
+  }
+  body .titulo .row .col .navbar div #navbarNav ul .botones {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+  body .titulo .row .col .navbar div #navbarNav ul .botones .as {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(229, 237, 243);
+  }
+  body .titulo .row .col h1 {
+    font-family: "Koulen", cursive;
+    font-size: 100px;
+    text-align: center;
+    color: black;
+  }
+  body .footer .row .col {
+    background-color: black;
+  }
+  body .footer .row .col p {
+    color: white;
+  }
+  .index .ofrecemos .row {
+    display: grid;
+    grid-template-areas: "titulo" "imagen";
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+  }
+  .index .ofrecemos .row .imagen {
+    grid-area: imagen;
+  }
+  .index .ofrecemos .row .titulo {
+    grid-area: titulo;
+  }
+  .nosotros .servicios .row .iconos img {
+    width: 50px !important;
+  }
+  .menu .platos {
+    margin-top: 10px;
+  }
+  .contacto .reserva .row div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contacto .iconos .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto .iconos .row div img {
+    width: 100px;
+    margin: 20px;
+  }
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  .nosotros {
+    background-color: rgb(72, 0, 255);
+  }
+  .nosotros .servicios .row .iconos img {
+    width: 80px !important;
+  }
+  .contacto .reserva .row div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contacto .iconos .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto .iconos .row div img {
+    width: 200px;
+    margin: 20px;
+  }
+}
+@media (min-width: 993px) {
+  body .navbar div #navbarNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  body .navbar div #navbarNav ul .botones {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(124, 36, 36);
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+  }
+  body .navbar div #navbarNav ul .botones .as {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px black;
+    color: rgb(229, 237, 243);
+  }
+  .index .bienvenidos .row .col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .index .bienvenidos .row .col p {
+    margin-right: 100px;
+    margin-left: 100px;
+    font-size: 25px;
+  }
+  .index .ofrecemos {
+    margin: 30px 0px 30px 0px;
+  }
+  .nosotros .foto-texto {
+    margin: 30px 0px 30px 0px;
+  }
+  .nosotros .foto-texto .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nosotros .foto-texto .row div p {
+    font-size: 23px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .nosotros .servicios .row {
+    margin: 30px 0px 30px 0px;
+  }
+  .nosotros .servicios .row .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nosotros .servicios .row .iconos img {
+    width: 50px !important;
+    margin-left: 20px;
+    margin-right: 24px;
+  }
+  .menu .platos .row div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .menu .container .row .fotos img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .contacto .reserva .row div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contacto .iconos .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contacto .iconos .row div img {
+    width: 200px;
+    margin: 20px;
+  }
+}
+body {
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+body .titulo .row .col {
+  background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
+  background-size: cover;
+}
+body .titulo .row .col .navbar div #navbarNav ul .botones {
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+body .titulo .row .col .navbar div #navbarNav ul .botones .as {
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
+  color: rgb(229, 237, 243);
+}
+body .titulo .row .col h1 {
+  font-family: "Koulen", cursive;
+  font-size: 120px;
+  text-align: center;
+  color: black;
+}
+body .footer .row .col {
+  background-color: black;
+}
+body .footer .row .col p {
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.index .ofrecemos .row .titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index .ofrecemos .row .imagen img {
+  border-radius: 20px;
+  width: 400px;
+}
+
+.nosotros .servicios .row .iconos img {
+  width: 135px;
+  margin-left: 20px;
+  margin-right: 24px;
+}
+
+/*# sourceMappingURL=destino.css.map */

@@ -1,0 +1,17 @@
+ @media(min-width:576px) and (max-width:767px){
+    .row{
+        display: grid;
+        grid-template-areas: 
+        "titulo"
+        "imagen";    
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 90%;
+    }
+    .titulo{
+        grid-area: titulo;
+    }
+    .imagen{
+        grid-area: imagen;
+    }
+
+} 

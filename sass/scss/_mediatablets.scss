@@ -1,0 +1,71 @@
+
+@media(min-width:767px) and (max-width:992px){
+    //general
+    body{
+        .navbar{
+            div{
+                #navbarNav{
+                   
+                }
+            }
+        }
+    }
+    .nosotros{
+        background-color: rgb(72, 0, 255);
+        .container{
+            .row{
+
+            }
+        }
+        .servicios{
+            .row{
+                .iconos{
+                    img{
+                        width: 80px !important;
+                    }
+                }
+            }
+        }
+    }
+    .contacto{
+        .reserva{
+            .llamada{
+                .row{
+                    div{
+                        form{
+                            
+                        }
+                    }
+                }
+            }
+            .row{
+                div{
+                    margin-top: 20px;
+                    margin-bottom: 20px;  
+
+                }
+            }
+        }
+        .llamada{
+            .row{
+                div{
+                   
+                }
+            }
+
+        }
+        .iconos{
+            .row{
+                div{
+                    display: flex;
+                    align-items: center; 
+                    justify-content: center;
+                    img{
+                        width: 200px;
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

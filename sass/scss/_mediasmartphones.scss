@@ -1,0 +1,149 @@
+@media(min-width:576px) and (max-width:766px){
+    //general
+    body {
+        .titulo {
+            .row {
+                .col {
+                    background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
+                    background-size: cover;
+                    .navbar {
+                        div {
+                            //navbar
+                            #navbarNav {                              
+                                ul {
+                                    .botones{
+                                        padding-right: 10px;
+                                        padding-left: 10px;
+                                        padding-top: 5px;
+                                        padding-bottom: 5px;
+                                        background-color: black;
+                                        margin-left: 5px;
+                                        margin-right: 5px;
+                                        border-radius: 10px;
+                
+                                        .as{
+                                            text-transform: uppercase;
+                                            text-shadow: 2px 2px 2px black;
+                                            color: rgb(229, 237, 243);
+                                        }
+                                    }
+                
+                                }
+                            }
+                        }
+                    }
+                    h1 {
+                        font-family: 'Koulen', cursive;
+                        font-size: 100px;
+                        text-align: center;
+                        color: black;
+                    }
+                }
+            }
+        }
+    
+        .footer {
+            .row {
+                .col {
+                    background-color: black;
+    
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    
+    }
+    //INDEX
+    .index{
+        .ofrecemos{
+            .row{
+                
+                display: grid;
+                grid-template-areas: 
+                "titulo"
+                "imagen";    
+                grid-template-columns: 100%;
+                grid-template-rows: 10% 90%;        
+                .imagen{
+                    grid-area: imagen;
+                    img{
+                        
+                    }
+                }
+                .titulo{
+                    grid-area: titulo;
+                }
+            }
+        }
+    }
+    //NOSOTROS
+    .nosotros{
+        
+        .container{
+            .row{
+
+            }
+        }
+        .servicios{
+            .row{
+                .iconos{
+                    img{
+                        width: 50px !important;
+                    }
+                }
+            }
+        }
+    }
+
+    //MENU
+    .menu{
+        .platos{
+            margin-top: 10px;
+        }
+
+    }
+    //CONTACTO
+    .contacto{
+        .reserva{
+            .llamada{
+                .row{
+                    div{
+                        .formulario{
+
+                        }
+                    }
+                }
+            }
+            .row{
+                div{
+                    margin-top: 20px;
+                    margin-bottom: 20px;  
+
+                }
+            }
+        }
+        .llamada{
+            .row{
+                div{
+                   
+                }
+            }
+
+        }
+        .iconos{
+            .row{
+                div{
+                    display: flex;
+                    align-items: center; 
+                    justify-content: center;
+                    img{
+                        width: 100px;
+                        margin: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

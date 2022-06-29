@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+@import "mediasmartphones";
+@import "mediatablets";
+@import "mediapantallas";
+
+
+//general
+body {
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    .titulo {
+        .row {           
+            .col {
+                //navbar
+                .navbar {
+                    div {
+                        #navbarNav {
+                            ul {
+                                .botones{
+                                    padding-right: 10px;
+                                    padding-left: 10px;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    background-color: black;
+                                    margin-left: 5px;
+                                    margin-right: 5px;
+                                    border-radius: 10px;
+           
+                                    .as{
+                                        text-transform: uppercase;
+                                        text-shadow: 2px 2px 2px black;
+                                        color: rgb(229, 237, 243);
+                                    }
+                                }
+           
+                            }
+                        }
+                    }
+                }
+                
+                background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
+                background-size: cover;
+
+                h1 {
+                    font-family: 'Koulen', cursive;
+                    font-size: 120px;
+                    text-align: center;
+                    color: black;
+                }
+            }
+        }
+    }
+
+    .footer {
+        .row {
+            .col {
+                background-color: black;
+                p {
+                    color: white;
+                    margin-top: 50px;
+                    margin-bottom: 50px;
+                }
+            }
+        }
+    }
+
+}
+
+//index
+.index {
+    .ofrecemos {
+        .row {
+            .titulo {
+                display: flex;
+                align-items: center; 
+                justify-content: center;
+                h3 {                    
+                }
+            }
+            .imagen {
+                img {
+                    border-radius: 20px;
+                    width: 400px;
+                }
+            }
+        }
+
+    }
+
+}
+
+//nosotros
+.nosotros {
+    .servicios {
+        .row {
+            .iconos {
+                img {
+                    width: 135px;
+                    margin-left: 20px;
+                    margin-right: 24px;
+                }
+            }
+        }
+    }
+}
+
+//menu
+
+//contato
+
+
