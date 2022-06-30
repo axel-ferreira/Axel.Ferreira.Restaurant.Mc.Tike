@@ -121,18 +121,48 @@
     text-shadow: 2px 2px 2px black;
     color: rgb(229, 237, 243);
   }
-  .index .bienvenidos .row .col {
+  .index .reserva .row div {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  .index .bienvenidos .row .col h2 {
-    color: azure;
+  .index .bienvenidos .row .col {
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .index .bienvenidos .row .col p {
-    margin-right: 100px;
-    margin-left: 100px;
+    margin-right: 145px;
+    margin-left: 145px;
     font-size: 25px;
     color: azure;
+  }
+  .index .a .row .col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .index .a .row .col h3 {
+    color: azure;
+  }
+  .index .ofrecemos .row .a1, .index .ofrecemos .row .a6, .index .ofrecemos .row .a5, .index .ofrecemos .row .a4, .index .ofrecemos .row .a3, .index .ofrecemos .row .a2 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/7612f35c05b066d82e14672530e7248f/411321c929cceaf9-aa/s2048x3072/e2c6c09bed65b82fc4eb0b82cf6a31e14ee0acef.jpg");
+  }
+  .index .ofrecemos .row .a1 img, .index .ofrecemos .row .a6 img, .index .ofrecemos .row .a5 img, .index .ofrecemos .row .a4 img, .index .ofrecemos .row .a3 img, .index .ofrecemos .row .a2 img {
+    margin: 20px 0px 20px 0px;
+  }
+  .index .ofrecemos .row .a2 {
+    background-image: url("https://64.media.tumblr.com/db2a442e22e46bd403140ed93a77a7bf/411321c929cceaf9-3e/s1280x1920/9d166363de947e3d1fb546a002d6b3cae68ddeef.jpg");
+  }
+  .index .ofrecemos .row .a3 {
+    background-image: url("https://64.media.tumblr.com/8f31dc22606124dcab6e4ae73302f571/411321c929cceaf9-90/s1280x1920/568f05481fd8dbe134e5e4b53ae41e9f0ef5fcf8.jpg");
+  }
+  .index .ofrecemos .row .a4 {
+    background-image: url("https://64.media.tumblr.com/9877eb41cbe33bcdd05a6fbd6d828b97/411321c929cceaf9-4b/s1280x1920/16bca24cce60c0015d398f190daf70746a2b1318.jpg");
+  }
+  .index .ofrecemos .row .a5 {
+    background-image: url("https://64.media.tumblr.com/9877eb41cbe33bcdd05a6fbd6d828b97/411321c929cceaf9-4b/s1280x1920/16bca24cce60c0015d398f190daf70746a2b1318.jpg");
+  }
+  .index .ofrecemos .row .a6 {
+    background-image: url("https://64.media.tumblr.com/37e8727f064fae791dc00abcdf147774/411321c929cceaf9-53/s2048x3072/d22bd8ec8cc3e2b687d9652c267cd2d94924ada2.jpg");
   }
   .nosotros .foto-texto .row div {
     display: flex;
@@ -211,6 +241,12 @@ body .footer .row .col p {
   margin-bottom: 50px;
 }
 
+.index .reserva {
+  background-color: #474973;
+}
+.index .reserva .row div h3 {
+  color: azure;
+}
 .index .bienvenidos {
   background-color: #0d0c1d;
 }
@@ -231,9 +267,6 @@ body .footer .row .col p {
 }
 .index .ofrecemos .row .titulo h3 {
   color: azure;
-}
-.index .ofrecemos .row .imagen {
-  background-color: #a69cac;
 }
 .index .ofrecemos .row .imagen img {
   border-radius: 20px;
