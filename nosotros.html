@@ -19,6 +19,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+
   <link rel="stylesheet" href="sass/css/destino.css">
 </head>
 
@@ -59,7 +61,7 @@
   </div>
   <!-- main -->
 
-  <div class="container foto-texto">
+  <div class="container-fluid foto-texto">
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6">
         <p>Somos un restaurante con sello propio, ubicados en el corazón de la bella ciudad de Freire, con más de 20
@@ -76,8 +78,39 @@
       </div>
     </div>
   </div>
+  
+  <div class="container-fluid carrusel">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/FGYZSF6QYZFF7G3YTHKAB5C6YE.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://servinox.com.mx/blog/wp-content/uploads/2015/03/Contemporary-Restaurant-Bar-Interior-Lighting-Design-Glass-House-Tavern-Manhattan-NYC.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://estaticos-cdn.elperiodico.com/clip/3e35dbef-a7e3-4272-8786-d8971c275ff3_alta-libre-aspect-ratio_default_0.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://topadventure.com/__export/1597001823905/sites/laverdad/img/2020/08/09/mejores_restaurantes.jpg_1209900187.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+    </div>
+  </div>
 
-  <div class="container">
+  <div class="container-fluid contamos">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12">
         <h2 class="text-center">Contamos con</h3> 
@@ -85,24 +118,40 @@
     </div>
   </div>
 
-  <div class="container servicios">
+  <div class="container-fluid servicios">
     <div class="row">
       <div class="col-sm-12 col-md-12 col-lg-12 iconos">
-        <img
-          src="https://64.media.tumblr.com/ccd974fe28b69acc2c91283ad1bdc015/989cd7667a57fc8e-5d/s540x810/e662861587081bd0994b7cf2008dfc63658a1809.pnj"
-          class="img-fluid" alt="...">
-        <img
-          src="https://64.media.tumblr.com/c692f4931b23f81b94156b9d694a8bab/989cd7667a57fc8e-66/s400x600/5cd063addc85023dadde5135020c2217b60b73c0.pnj"
-          class="img-fluid" alt="...">
-        <img
-          src="https://64.media.tumblr.com/61821f75a827384ee578207f7dd10049/11b5e7cde4b8c031-9a/s540x810/d387615e8364809f8741975ef86056a7391b1049.pnj"
-          class="img-fluid" alt="...">
-        <img
-          src="https://64.media.tumblr.com/36b363421b0d607ded9ade411cfae5fd/11b5e7cde4b8c031-77/s540x810/ec8efa4b2fbc491b74ca1721c92b6b19dfa94f2d.pnj"
-          class="img-fluid" alt="...">
-        <img
-          src="https://64.media.tumblr.com/4157d2003a14e61bfa48d6f2fd69fa54/11b5e7cde4b8c031-75/s540x810/113a5af3a509ee292b1dad1bd6e4cc506009a1d9.pnj"
-          class="img-fluid" alt="...">
+        <span class="material-symbols-outlined">
+          tv_gen
+        </span>
+        <p>televisiones</p>
+        <span class="material-symbols-outlined">
+          wifi
+        </span>
+        <p>wifi gratis</p>
+        <span class="material-symbols-outlined">
+          garage
+        </span>
+        <p>estacionamiento</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid servicios">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-12 iconos">
+        <span class="material-symbols-outlined">
+          check_circle
+        </span>
+        <p>excelente servicio</p>
+        <span class="material-symbols-outlined">
+          smoking_rooms
+        </span>
+        <p>zona fumadores</p>
+        <span class="material-symbols-outlined">
+          music_note
+        </span>
+        <p>musica</p> 
       </div>
     </div>
   </div>

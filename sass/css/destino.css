@@ -23,6 +23,7 @@
     text-transform: uppercase;
     text-shadow: 2px 2px 2px black;
     color: rgb(229, 237, 243);
+    text-align: center;
   }
   body .titulo .row .col h1 {
     font-family: "Koulen", cursive;
@@ -36,6 +37,13 @@
   body .footer .row .col p {
     color: white;
   }
+  .index .bienvenidos .row .col h2 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .index .bienvenidos .row .col p {
+    font-size: 22px;
+  }
   .index .ofrecemos .row {
     display: grid;
     grid-template-areas: "titulo" "imagen";
@@ -44,6 +52,9 @@
   }
   .index .ofrecemos .row .imagen {
     grid-area: imagen;
+  }
+  .index .ofrecemos .row .imagen img {
+    width: 250px !important;
   }
   .index .ofrecemos .row .titulo {
     grid-area: titulo;
@@ -114,16 +125,14 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .index .bienvenidos .row .col h2 {
+    color: azure;
+  }
   .index .bienvenidos .row .col p {
     margin-right: 100px;
     margin-left: 100px;
     font-size: 25px;
-  }
-  .index .ofrecemos {
-    margin: 30px 0px 30px 0px;
-  }
-  .nosotros .foto-texto {
-    margin: 30px 0px 30px 0px;
+    color: azure;
   }
   .nosotros .foto-texto .row div {
     display: flex;
@@ -134,9 +143,6 @@
     font-size: 23px;
     padding-left: 20px;
     padding-right: 10px;
-  }
-  .nosotros .servicios .row {
-    margin: 30px 0px 30px 0px;
   }
   .nosotros .servicios .row .iconos {
     display: flex;
@@ -170,9 +176,6 @@
     margin: 20px;
   }
 }
-body {
-  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-}
 body .titulo .row .col {
   background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
   background-size: cover;
@@ -191,6 +194,7 @@ body .titulo .row .col .navbar div #navbarNav ul .botones .as {
   text-transform: uppercase;
   text-shadow: 2px 2px 2px black;
   color: rgb(229, 237, 243);
+  font-weight: 400;
 }
 body .titulo .row .col h1 {
   font-family: "Koulen", cursive;
@@ -207,20 +211,110 @@ body .footer .row .col p {
   margin-bottom: 50px;
 }
 
+.index .bienvenidos {
+  background-color: #0d0c1d;
+}
+.index .bienvenidos .row .col h2 {
+  color: azure;
+}
+.index .bienvenidos .row .col p {
+  color: azure;
+}
+.index .a {
+  background-color: #474973;
+}
 .index .ofrecemos .row .titulo {
+  background-color: #161b33;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.index .ofrecemos .row .titulo h3 {
+  color: azure;
+}
+.index .ofrecemos .row .imagen {
+  background-color: #a69cac;
 }
 .index .ofrecemos .row .imagen img {
   border-radius: 20px;
   width: 400px;
 }
 
-.nosotros .servicios .row .iconos img {
-  width: 135px;
-  margin-left: 20px;
-  margin-right: 24px;
+.nosotros .foto-texto {
+  background-color: #0d0c1d;
+}
+.nosotros .foto-texto .row div p {
+  color: azure;
+}
+.nosotros .carrusel {
+  background-color: #161b33;
+}
+.nosotros .contamos {
+  background-color: #474973;
+}
+.nosotros .servicios {
+  background-color: #a69cac;
+}
+.nosotros .servicios .row .iconos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu .platos {
+  background-color: #474973;
+}
+.menu .platos h3 {
+  color: azure;
+}
+.menu .container-fluid .row .a {
+  background-color: #0d0c1d;
+}
+.menu .container-fluid .row .a p {
+  color: azure;
+}
+.menu .container-fluid .row .b {
+  background-color: #161b33;
+}
+.menu .container-fluid .row .b p {
+  color: azure;
+}
+.menu .container-fluid .row .lista {
+  background-color: #0d0c1d;
+}
+.menu .container-fluid .row .lista p {
+  color: azure;
+}
+.menu .container-fluid .row .fotos {
+  background-color: #161b33;
+}
+
+.contacto .reserva {
+  background-color: #474973;
+}
+.contacto .reserva h3 {
+  color: azure;
+}
+.contacto .llamada .form {
+  background-color: #161b33;
+}
+.contacto .llamada .form label {
+  color: azure;
+}
+.contacto .llamada .numero {
+  background-color: #0d0c1d;
+}
+.contacto .llamada .numero p {
+  color: azure;
+}
+.contacto .busca {
+  background-color: #474973;
+}
+.contacto .busca h3 {
+  color: azure;
+}
+.contacto .iconos {
+  background-color: #a69cac;
 }
 
 /*# sourceMappingURL=destino.css.map */

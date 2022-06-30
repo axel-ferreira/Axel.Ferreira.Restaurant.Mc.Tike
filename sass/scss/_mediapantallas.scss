@@ -36,17 +36,20 @@
                 .col{
                     margin-top: 20px;
                     margin-bottom: 20px;
+                    h2{
+                        color: azure;
+                    }
                     p{
                         margin-right: 100px;
                         margin-left: 100px;
                         font-size: 25px;
+                        color: azure;
                     }
                 }
             }
         }
         .ofrecemos{
-            margin: 30px 0px 30px 0px;
-            // background-color: #222831;
+            
             .row{
             }
         }
@@ -55,7 +58,6 @@
     //nosotros
     .nosotros {
         .foto-texto{
-            margin: 30px 0px 30px 0px;
             .row{
                 div{
                     display: flex;
@@ -71,11 +73,14 @@
         }
         .servicios {
             .row {
-                margin: 30px 0px 30px 0px;
+                
                 .iconos {
                     display: flex;
                     align-items: center; 
                     justify-content: center;
+                    span{
+                        // font-size: 90px;
+                    }
 
                     img {
                         width: 50px !important;

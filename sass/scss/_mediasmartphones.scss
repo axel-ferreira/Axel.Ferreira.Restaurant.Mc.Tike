@@ -8,7 +8,11 @@
                     background-size: cover;
                     .navbar {
                         div {
-                            //navbar
+                            .navbar-toggle{
+                                span{
+                                    
+                                }
+                            }
                             #navbarNav {                              
                                 ul {
                                     .botones{
@@ -25,6 +29,7 @@
                                             text-transform: uppercase;
                                             text-shadow: 2px 2px 2px black;
                                             color: rgb(229, 237, 243);
+                                            text-align: center;
                                         }
                                     }
                 
@@ -57,6 +62,21 @@
     }
     //INDEX
     .index{
+        .bienvenidos{
+            .row{
+                .col{
+                    h2{
+                        margin-top: 10px;
+                        margin-left: 10px;
+
+                    }
+                    p{
+                        font-size: 22px;
+
+                    }
+                }
+            }
+        }
         .ofrecemos{
             .row{
                 
@@ -68,7 +88,9 @@
                 grid-template-rows: 10% 90%;        
                 .imagen{
                     grid-area: imagen;
+                    
                     img{
+                        width: 250px !important;
                         
                     }
                 }

@@ -11,7 +11,6 @@
 
 //general
 body {
-    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
     .titulo {
         .row {           
             .col {
@@ -34,6 +33,7 @@ body {
                                         text-transform: uppercase;
                                         text-shadow: 2px 2px 2px black;
                                         color: rgb(229, 237, 243);
+                                        font-weight: 400;
                                     }
                                 }
            
@@ -72,16 +72,37 @@ body {
 
 //index
 .index {
+    .bienvenidos{
+        background-color: #0d0c1d;
+        .row{
+            .col{
+                h2{
+                    color: azure;
+
+                }
+                p{
+                    color: azure;
+
+                }
+            }
+        }
+    }
+    .a{
+        background-color: #474973;
+    }
     .ofrecemos {
         .row {
             .titulo {
+                background-color: #161b33;
                 display: flex;
                 align-items: center; 
                 justify-content: center;
-                h3 {                    
+                h3 { 
+                    color: azure;                   
                 }
             }
             .imagen {
+                background-color: #a69cac;
                 img {
                     border-radius: 20px;
                     width: 400px;
@@ -92,24 +113,120 @@ body {
     }
 
 }
-
 //nosotros
 .nosotros {
-    .servicios {
-        .row {
-            .iconos {
-                img {
-                    width: 135px;
-                    margin-left: 20px;
-                    margin-right: 24px;
+    .foto-texto{
+        background-color: #0d0c1d;
+        .row{
+            div{
+                p{
+                    color: azure;
                 }
             }
         }
     }
+    .carrusel{
+        background-color: #161b33;
+        .row{
+            div{
+                .carousel-inner{
+
+                }
+            }
+        }
+    }
+    .contamos{
+        background-color: #474973;
+
+    }
+    .servicios {
+        background-color: #a69cac;
+        .row {
+            .iconos {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+            }
+        }
+    }
 }
-
 //menu
+.menu{
+    .platos{
+        background-color: #474973;
+        h3{
+            color: azure;
+        }
 
+    }
+    .container-fluid{
+        .row{
+            .a{
+                background-color: #0d0c1d;
+                p{
+                    color: azure;
+                }
+            }
+            .b{
+                background-color: #161b33;
+                p{
+                    color: azure;
+                }
+            }
+            .lista{
+                background-color: #0d0c1d;
+                p{
+                    color: azure;
+                }
+
+            }
+            .fotos{
+                background-color: #161b33;
+
+            }
+        }
+    }
+}
 //contato
+.contacto{
+    .reserva{
+        background-color: #474973 ;
+        h3{
+            color: azure;
+        }
+
+    }
+    .llamada{
+        .form{
+            background-color: #161b33;
+            label{
+                color: azure;
+
+            }
+
+        }
+        .numero{
+            background-color: #0d0c1d;
+            p{
+                color: azure;
+            }
+
+        }
+
+    }
+    .busca{
+        background-color: #474973 ;
+        h3{
+            color: azure;
+        }
+
+    }
+    .iconos{
+        background-color: #a69cac;
+
+    }
+
+}
 
 
