@@ -29,6 +29,20 @@
         }
     }
     $img-margin-t-b:20px 0px 20px 0px;
+    $col-margin-t-b:60px 0px 60px 0px;
+    
+    @mixin flex-center-center{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    @mixin h2($font , $size , $color, $margin){
+        font-family: $font;
+        font-size: $size;
+        color: $color;
+        margin:$margin;
+    }
+
     //index
     .index{
         .reserva{
@@ -109,6 +123,7 @@
         .foto-texto{
             .row{
                 div{
+                    margin: $col-margin-t-b;
                     display: flex;
                     align-items: center; 
                     justify-content: center;
@@ -117,18 +132,45 @@
                         padding-left: 20px;
                         padding-right: 10px;
                     }
+                    img{
+                        padding-right: 50px;
+                        padding-left: 50px;
+                    }
+                }
+            }
+        }
+        .carrusel{
+            .row{
+                div{
+                    .carousel{
+                        padding: 100px;
+                    }
+                }
+            }
+        }
+        .contamos{
+            .row{
+                div{
+                    h2{
+                        @include h2('Macondo', 30px , azure, 20px)
+                    }
                 }
             }
         }
         .servicios {
-            .row {
-                
+            .row {               
                 .iconos {
                     display: flex;
                     align-items: center; 
                     justify-content: center;
+                    padding: 20px 0px 20px 0px;
                     span{
-                        // font-size: 90px;
+                        font-size: 60px;
+                        margin-left: 20px;
+                    }
+                    p{
+                        margin-right: 30px;
+                        margin-left: 10px;
                     }
 
                     img {
