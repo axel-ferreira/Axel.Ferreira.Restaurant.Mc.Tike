@@ -51,6 +51,9 @@
                 div{
                     margin-top: 20px;
                     margin-bottom: 20px; 
+                    h3{
+                        @include h2('Macondo', 30px , azure, 20px)
+                    }
                      
                 }
             }
@@ -75,7 +78,7 @@
                     margin-top: 20px;
                     margin-bottom: 20px; 
                     h3{
-                        color: azure;
+                        @include h2('Macondo', 30px , azure, 20px)
                     }
                 }
             }
@@ -83,6 +86,9 @@
         .ofrecemos{
             .row{
                 .titulo{
+                    h3{
+                        @include h2('Macondo', 30px , azure, 20px)
+                    }
                 }
                 .a1{
                     background-size: cover;
@@ -188,19 +194,23 @@
         .platos{
             .row{
                 div{
-                    margin-top: 20px;
-                    margin-bottom: 20px;  
-                    h3{      
+                    margin: $img-margin-t-b;
+                    h3{  
+                        @include h2('Macondo', 30px , azure, 20px)
+                           
                     }
                 }
             }
         }
-        .container{
+        .container-fluid{
             .row{
+                .lista{
+                    padding: 20px;
+                }
                 .fotos{
+                    
                     img{
-                        margin-top: 15px;
-                        margin-bottom: 15px; 
+                        margin: $img-margin-t-b;
                     }
                 }
             }
@@ -212,8 +222,11 @@
         .reserva{
             .row{
                 div{
-                    margin-top: 20px;
-                    margin-bottom: 20px;  
+                    margin: $img-margin-t-b; 
+                    h3{
+                        @include h2('Macondo', 30px , azure, 20px)
+
+                    }
 
                 }
             }
@@ -221,10 +234,24 @@
         .llamada{
             .row{
                 div{
+                    form{
+                        margin: 30px;
+                    }
                    
                 }
             }
 
+        }
+        .busca{
+            .row{
+                div{
+                   margin: $img-margin-t-b;
+                    h3{
+                        @include h2('Macondo', 30px , azure, 20px)
+                        
+                    }
+                }
+            }
         }
         .iconos{
             .row{

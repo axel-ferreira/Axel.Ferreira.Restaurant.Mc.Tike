@@ -1,5 +1,17 @@
 @media(min-width:576px) and (max-width:766px){
     //general
+    @mixin h2($font , $size , $color, $margin){
+        font-family: $font;
+        font-size: $size;
+        color: $color;
+        margin:$margin;
+    }
+    @mixin flex-center-center{
+        display: flex;
+        align-items: center; 
+        justify-content: center;
+    }
+    $icons-margin-t-b:10px 10px 10px 0px;
     body {
         .titulo {
             .row {
@@ -45,8 +57,7 @@
                     }
                 }
             }
-        }
-    
+        }   
         .footer {
             .row {
                 .col {
@@ -58,20 +69,33 @@
                 }
             }
         }
-    
     }
     //INDEX
     .index{
+        .reserva{
+            .row{
+                div{
+                    h3{
+                       @include h2 ('macondo', 30px, azure, 10px) 
+                    }
+                }
+            }
+        }
         .bienvenidos{
             .row{
                 .col{
-                    h2{
-                        margin-top: 10px;
-                        margin-left: 10px;
-
-                    }
                     p{
                         font-size: 22px;
+                        margin: 30px;
+                    }
+                }
+            }
+        }
+        .a{
+            .row{
+                div{
+                    h3{
+                        @include h2 ('macondo', 30px, azure, 10px)
 
                     }
                 }
@@ -96,63 +120,137 @@
                 }
                 .titulo{
                     grid-area: titulo;
+                    h3{
+                        @include h2 ('macondo', 26px, azure, 10px)
+
+                    }
                 }
             }
         }
     }
     //NOSOTROS
     .nosotros{
-        
-        .container{
+        .foto-texto{
             .row{
-
+                div{
+                    p{
+                        margin: 60px;
+                        line-height: 2;
+                    }
+                    img{
+                        padding: 40px;
+                    }
+                }
+            }
+        }
+        .carrusel{
+            .row{
+                div{
+                    .carousel{
+                        padding: 40px;
+                    }
+                }
+            }
+        }
+        .contamos{
+            .row{
+                div{
+                    h2{
+                        @include h2 ('macondo', 26px, azure, 10px)
+                    }
+                }
             }
         }
         .servicios{
             .row{
                 .iconos{
-                    img{
-                        width: 50px !important;
+                    span{
+                        font-size: 40px;
+                        margin: $icons-margin-t-b;
+                    }
+                    p{
+                        margin-right: 10px;
                     }
                 }
             }
         }
     }
-
     //MENU
     .menu{
         .platos{
-            margin-top: 10px;
+            .row{
+                div{
+                    h3{
+                        @include h2 ('macondo', 26px, azure, 10px)
+                    }
+                }
+            }
+        }
+        .container-fluid{
+            .row{
+                .lista{
+                    p{
+                        padding: 20px;
+                    } 
+                }
+                .fotos{
+                    @include flex-center-center;
+                    img{
+                        width: 230px;
+                        padding: 10px;
+                        border-radius: 12px;
+                    }
+                }
+            }
+        }
+        .beber{
+            .row{
+                div{
+                    @include flex-center-center;
+                    p{
+                        padding: 20px;
+
+                    }
+                    img{
+                        width: 300px;
+                        border-radius: 12px;
+                    }
+                }
+            }
         }
 
     }
     //CONTACTO
     .contacto{
         .reserva{
-            .llamada{
-                .row{
-                    div{
-                        .formulario{
-
-                        }
-                    }
-                }
-            }
             .row{
                 div{
-                    margin-top: 20px;
-                    margin-bottom: 20px;  
-
+                    h3{
+                        @include h2 ('macondo', 26px, azure, 10px)
+                    }
                 }
             }
         }
         .llamada{
             .row{
-                div{
-                   
+                .form{
+                    padding: 50px;
+                }
+                .numero{
+                    @include flex-center-center;
+                    padding: 40px;
                 }
             }
 
+        }
+        .busca{
+            .row{
+                div{
+                    h3{
+                        @include h2 ('macondo', 26px, azure, 10px)
+                    }
+                }
+            }
         }
         .iconos{
             .row{

@@ -37,12 +37,21 @@
   body .footer .row .col p {
     color: white;
   }
-  .index .bienvenidos .row .col h2 {
-    margin-top: 10px;
-    margin-left: 10px;
+  .index .reserva .row div h3 {
+    font-family: "macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 10px;
   }
   .index .bienvenidos .row .col p {
     font-size: 22px;
+    margin: 30px;
+  }
+  .index .a .row div h3 {
+    font-family: "macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 10px;
   }
   .index .ofrecemos .row {
     display: grid;
@@ -59,15 +68,86 @@
   .index .ofrecemos .row .titulo {
     grid-area: titulo;
   }
-  .nosotros .servicios .row .iconos img {
-    width: 50px !important;
+  .index .ofrecemos .row .titulo h3 {
+    font-family: "macondo";
+    font-size: 26px;
+    color: azure;
+    margin: 10px;
   }
-  .menu .platos {
-    margin-top: 10px;
+  .nosotros .foto-texto .row div p {
+    margin: 60px;
+    line-height: 2;
   }
-  .contacto .reserva .row div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+  .nosotros .foto-texto .row div img {
+    padding: 40px;
+  }
+  .nosotros .carrusel .row div .carousel {
+    padding: 40px;
+  }
+  .nosotros .contamos .row div h2 {
+    font-family: "macondo";
+    font-size: 26px;
+    color: azure;
+    margin: 10px;
+  }
+  .nosotros .servicios .row .iconos span {
+    font-size: 40px;
+    margin: 10px 10px 10px 0px;
+  }
+  .nosotros .servicios .row .iconos p {
+    margin-right: 10px;
+  }
+  .menu .platos .row div h3 {
+    font-family: "macondo";
+    font-size: 26px;
+    color: azure;
+    margin: 10px;
+  }
+  .menu .container-fluid .row .lista p {
+    padding: 20px;
+  }
+  .menu .container-fluid .row .fotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu .container-fluid .row .fotos img {
+    width: 230px;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  .menu .beber .row div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .menu .beber .row div p {
+    padding: 20px;
+  }
+  .menu .beber .row div img {
+    width: 300px;
+    border-radius: 12px;
+  }
+  .contacto .reserva .row div h3 {
+    font-family: "macondo";
+    font-size: 26px;
+    color: azure;
+    margin: 10px;
+  }
+  .contacto .llamada .row .form {
+    padding: 50px;
+  }
+  .contacto .llamada .row .numero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  .contacto .busca .row div h3 {
+    font-family: "macondo";
+    font-size: 26px;
+    color: azure;
+    margin: 10px;
   }
   .contacto .iconos .row div {
     display: flex;
@@ -125,6 +205,12 @@
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .index .reserva .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 20px;
+  }
   .index .bienvenidos .row .col {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -140,7 +226,16 @@
     margin-bottom: 20px;
   }
   .index .a .row .col h3 {
+    font-family: "Macondo";
+    font-size: 30px;
     color: azure;
+    margin: 20px;
+  }
+  .index .ofrecemos .row .titulo h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 20px;
   }
   .index .ofrecemos .row .a1, .index .ofrecemos .row .a6, .index .ofrecemos .row .a5, .index .ofrecemos .row .a4, .index .ofrecemos .row .a3, .index .ofrecemos .row .a2 {
     background-size: cover;
@@ -208,16 +303,40 @@
     margin-right: 24px;
   }
   .menu .platos .row div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
   }
-  .menu .container .row .fotos img {
-    margin-top: 15px;
-    margin-bottom: 15px;
+  .menu .platos .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 20px;
+  }
+  .menu .container-fluid .row .lista {
+    padding: 20px;
+  }
+  .menu .container-fluid .row .fotos img {
+    margin: 20px 0px 20px 0px;
   }
   .contacto .reserva .row div {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 0px 20px 0px;
+  }
+  .contacto .reserva .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 20px;
+  }
+  .contacto .llamada .row div form {
+    margin: 30px;
+  }
+  .contacto .busca .row div {
+    margin: 20px 0px 20px 0px;
+  }
+  .contacto .busca .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 20px;
   }
   .contacto .iconos .row div {
     display: flex;
@@ -290,6 +409,9 @@ body .footer .row .col p {
 }
 .index .ofrecemos .row .titulo h3 {
   color: azure;
+}
+.index .ofrecemos .row .imagen {
+  background-color: #a69cac;
 }
 .index .ofrecemos .row .imagen img {
   border-radius: 20px;
