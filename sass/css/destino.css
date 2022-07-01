@@ -159,16 +159,153 @@
     margin: 20px;
   }
 }
-@media (min-width: 767px) and (max-width: 992px) {
-  .nosotros {
-    background-color: rgb(72, 0, 255);
-  }
-  .nosotros .servicios .row .iconos img {
-    width: 80px !important;
-  }
-  .contacto .reserva .row div {
+@media (min-width: 768px) and (max-width: 992px) {
+  .index .reserva .row div {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .index .reserva .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .index .bienvenidos .row .col {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .index .bienvenidos .row .col p {
+    margin-right: 145px;
+    margin-left: 145px;
+    font-size: 25px;
+    color: azure;
+  }
+  .index .a .row .col {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .index .a .row .col h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .index .ofrecemos .row .titulo h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .index .ofrecemos .row .imagen {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/7612f35c05b066d82e14672530e7248f/411321c929cceaf9-aa/s2048x3072/e2c6c09bed65b82fc4eb0b82cf6a31e14ee0acef.jpg");
+  }
+  .index .ofrecemos .row .imagen img {
+    margin: 18px 0px 18px 0px;
+  }
+  .index .ofrecemos .row .a2 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/db2a442e22e46bd403140ed93a77a7bf/411321c929cceaf9-3e/s1280x1920/9d166363de947e3d1fb546a002d6b3cae68ddeef.jpg");
+  }
+  .index .ofrecemos .row .a3 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/8f31dc22606124dcab6e4ae73302f571/411321c929cceaf9-90/s1280x1920/568f05481fd8dbe134e5e4b53ae41e9f0ef5fcf8.jpg");
+  }
+  .index .ofrecemos .row .a4 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/9877eb41cbe33bcdd05a6fbd6d828b97/411321c929cceaf9-4b/s1280x1920/16bca24cce60c0015d398f190daf70746a2b1318.jpg");
+  }
+  .index .ofrecemos .row .a5 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/21ad837509427ef09756d2707c03a4ca/411321c929cceaf9-fd/s1280x1920/b17de28499ffbe45c61b5d55ad49150a9f9f4dc5.pnj");
+  }
+  .index .ofrecemos .row .a6 {
+    background-size: cover;
+    background-image: url("https://64.media.tumblr.com/37e8727f064fae791dc00abcdf147774/411321c929cceaf9-53/s2048x3072/d22bd8ec8cc3e2b687d9652c267cd2d94924ada2.jpg");
+  }
+  .nosotros .foto-texto .row div {
+    margin: 90px 0px 60px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nosotros .foto-texto .row div p {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .nosotros .foto-texto .row div img {
+    padding: 30px;
+  }
+  .nosotros .carrusel .row div .carousel {
+    padding: 100px;
+  }
+  .nosotros .contamos .row div h2 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .nosotros .servicios .row .iconos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 20px 0px;
+  }
+  .nosotros .servicios .row .iconos span {
+    font-size: 60px;
+    margin-left: 20px;
+  }
+  .nosotros .servicios .row .iconos p {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  .nosotros .servicios .row .iconos img {
+    width: 50px !important;
+    margin-left: 20px;
+    margin-right: 24px;
+  }
+  .menu .platos .row div {
+    margin: 18px 0px 18px 0px;
+  }
+  .menu .platos .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .menu .container-fluid .row .lista {
+    padding: 20px;
+  }
+  .menu .container-fluid .row .fotos img {
+    margin: 90px 0px 60px 0px;
+  }
+  .menu .beber .row div p {
+    padding: 20px;
+  }
+  .contacto .reserva .row div {
+    margin: 18px 0px 18px 0px;
+  }
+  .contacto .reserva .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
+  }
+  .contacto .llamada .row div form {
+    margin: 8px;
+  }
+  .contacto .llamada .row .numero p {
+    margin-top: 50px;
+  }
+  .contacto .busca .row div {
+    margin: 18px 0px 18px 0px;
+  }
+  .contacto .busca .row div h3 {
+    font-family: "Macondo";
+    font-size: 30px;
+    color: azure;
+    margin: 15px;
   }
   .contacto .iconos .row div {
     display: flex;
@@ -176,7 +313,7 @@
     justify-content: center;
   }
   .contacto .iconos .row div img {
-    width: 200px;
+    width: 180px;
     margin: 20px;
   }
 }
@@ -316,6 +453,9 @@
   }
   .menu .container-fluid .row .fotos img {
     margin: 20px 0px 20px 0px;
+  }
+  .menu .beber .row div p {
+    padding: 20px;
   }
   .contacto .reserva .row div {
     margin: 20px 0px 20px 0px;
