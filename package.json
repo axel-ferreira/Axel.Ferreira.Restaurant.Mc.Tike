@@ -1,11 +1,11 @@
 {
-  "name": "axel",
+  "name": "Restaurant Mc Tike",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Axel Joao Pablo Ferreira Cofre",
   "license": "ISC",
-  "description": ""
+  "description": "Proyecto de Sitio web para el bootcamp de Coderhouse desarrollo front-end"
 }

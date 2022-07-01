@@ -15,6 +15,7 @@
     body {
         .titulo {
             .row {
+                height: 26vh;
                 .col {
                     background-image: url("https://64.media.tumblr.com/1ba63ada6a8018f0ad7990a76a23d2ed/411321c929cceaf9-a7/s1280x1920/c880ea63e3632666d54f26e91c7693cd991bf862.jpg") !important;
                     background-size: cover;
@@ -51,7 +52,7 @@
                     }
                     h1 {
                         font-family: 'Koulen', cursive;
-                        font-size: 100px;
+                        font-size: 82px !important;
                         text-align: center;
                         color: black;
                     }
