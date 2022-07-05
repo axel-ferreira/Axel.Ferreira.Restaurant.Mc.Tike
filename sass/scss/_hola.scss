@@ -1,0 +1,14 @@
+$ofrecemos: (
+    1: #url("https://64.media.tumblr.com/7612f35c05b066d82e14672530e7248f/411321c929cceaf9-aa/s2048x3072/e2c6c09bed65b82fc4eb0b82cf6a31e14ee0acef.jpg"),
+    2: #url("https://64.media.tumblr.com/db2a442e22e46bd403140ed93a77a7bf/411321c929cceaf9-3e/s1280x1920/9d166363de947e3d1fb546a002d6b3cae68ddeef.jpg"),
+    3: #url("https://64.media.tumblr.com/8f31dc22606124dcab6e4ae73302f571/411321c929cceaf9-90/s1280x1920/568f05481fd8dbe134e5e4b53ae41e9f0ef5fcf8.jpg"),
+    4: #url("https://64.media.tumblr.com/9877eb41cbe33bcdd05a6fbd6d828b97/411321c929cceaf9-4b/s1280x1920/16bca24cce60c0015d398f190daf70746a2b1318.jpg"),
+    5: #url("https://64.media.tumblr.com/9877eb41cbe33bcdd05a6fbd6d828b97/411321c929cceaf9-4b/s1280x1920/16bca24cce60c0015d398f190daf70746a2b1318.jpg"),
+    6: #url("https://64.media.tumblr.com/37e8727f064fae791dc00abcdf147774/411321c929cceaf9-53/s2048x3072/d22bd8ec8cc3e2b687d9652c267cd2d94924ada2.jpg"),
+)
+@each $num , $bc-img in $ofrecemos{
+    .a#{num} {
+        background-image: url$bc-img;
+    }
+
+}
