@@ -1,11 +1,19 @@
 {
-  "name": "Restaurant Mc Tike",
+  "name": "axel",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Axel Joao Pablo Ferreira Cofre",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axel-ferreira/Axel.Ferreira.Restaurant.Mc.Tike.git"
+  },
+  "author": "",
   "license": "ISC",
-  "description": "Proyecto de Sitio web para el bootcamp de Coderhouse desarrollo front-end"
+  "bugs": {
+    "url": "https://github.com/axel-ferreira/Axel.Ferreira.Restaurant.Mc.Tike/issues"
+  },
+  "homepage": "https://github.com/axel-ferreira/Axel.Ferreira.Restaurant.Mc.Tike#readme",
+  "description": ""
 }
